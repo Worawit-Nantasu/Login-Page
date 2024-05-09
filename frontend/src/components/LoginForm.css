@@ -1,0 +1,102 @@
+.login-container {
+    background-color: #05C582;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-form {
+    background-color: #2E3138;
+    width: 500px;
+    height: 450px;
+    border-radius: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.login-logo {
+    position: absolute;
+    left: 50%;
+    top:-100px;
+    transform: translateX(-50%);
+}
+
+/* -------------- usr--------------- */
+
+.usr-form {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.usr-form label {
+    color: #BBBBBB;
+    font-size: 16px;
+}
+
+.usr-form input {
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #525E6A;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+/* -------------- pass --------------- */
+
+.pass-form {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pass-form label {
+    color: #BBBBBB;
+    font-size: 16px;
+}
+
+.pass-form input {
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #525E6A;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+/* -------------- button --------------- */
+.login-button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-button button {
+    width: 160px;
+    height: 50px;
+    background-color: #05C582;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* -------------- forgot password --------------- */
+
+.forgot-password {
+    position: absolute;
+    bottom: 105px;
+    right: 50px;
+}
+
+.forgot-password a {
+    color: #BBBBBB;
+    text-decoration: underline;
+}
